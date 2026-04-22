@@ -144,6 +144,14 @@ tf-gpu/
 ENV/
 env.bak/
 venv.bak/
+# Dataset folders, ignorar carpetas pero no los comprimidos
+datasets/*
+!datasets/*.zip
+# Embeddings folder, ignorar carpetas pero no los comprimidos
+embeddings/*
+!embeddings/*.zip
+# Tensorboard
+tensorboard/*
 
 # Spyder project settings
 .spyderproject

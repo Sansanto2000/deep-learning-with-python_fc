@@ -11,6 +11,10 @@ Los cuadernos siguen una nomenclatura estricta para facilitar la navegación sig
 
 Cada notebook incluye explicaciones teóricas intercaladas con los bloques de código, sirviendo como una guía de estudio completa que conecta la teoría con la implementación en **Keras/TensorFlow**.
 
+## Datasets
+
+Los datasets necesarios para cada módulo ya están descargados en el propio repositorio, en formato `.zip`.
+
 ## Configuración del Entorno
 
 Para ejecutar los notebooks con soporte de aceleración por hardware (GPU), asegúrate de tener configurado tu entorno virtual:
