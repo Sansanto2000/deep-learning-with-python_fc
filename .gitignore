@@ -144,12 +144,12 @@ tf-gpu/
 ENV/
 env.bak/
 venv.bak/
-# Dataset folders, ignorar carpetas pero no los comprimidos
+# Dataset folders, ignorar carpetas pero no los .md
 datasets/*
-!datasets/*.zip
-# Embeddings folder, ignorar carpetas pero no los comprimidos
+!datasets/*.md
+# Embeddings folder, ignorar carpetas pero no los .md
 embeddings/*
-!embeddings/*.zip
+!embeddings/*.md
 # Tensorboard
 tensorboard/*
 

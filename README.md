@@ -13,7 +13,7 @@ Cada notebook incluye explicaciones teóricas intercaladas con los bloques de c�
 
 ## Datasets
 
-Los datasets necesarios para cada módulo ya están descargados en el propio repositorio, en formato `.zip`.
+Por cuestiones de límite de tamaño de archivo en GitHub los las carpetas `datasets/` y `embeddings/` son inicializadas sin contenido. No obstante todo lo necesario para descargar sus respectivos archivos se muestra en los bloques de código que lo usan.
 
 ## Configuración del Entorno
 
