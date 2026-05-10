@@ -17,9 +17,37 @@ Por cuestiones de límite de tamaño de archivo en GitHub los las carpetas `data
 
 ## Configuración del Entorno
 
+Para ejecutar el codigo se usa *Docker*. 
+
+```
+# Levantar el contenedor
+docker compose up
+
+# Comprobar ejecucion
+docker compose ps
+
+# Levantar
+docker compose exec tensorflow bash
+```
+
+# Ejecutar `ipynb` desde VSC
+
+Para ejecutar: 
+1. Instalar la extension *Dev Containers*.
+2. Presionar `Ctrl+Shift+P`.
+3. Seleccionar *"Attach to Running Container"*.
+
+Se abrira un nuevo contenedor donde se puede ejecutar los archivos.
+
+
+
+
+---------
+
 Para ejecutar los notebooks con soporte de aceleración por hardware (GPU), asegúrate de tener configurado tu entorno virtual:
 
 ```
 # Activar el entorno virtual
 source tf-gpu/bin/activate
+source .venv/bin/activate
 ```
