@@ -38,16 +38,3 @@ Para ejecutar:
 3. Seleccionar *"Attach to Running Container"*.
 
 Se abrira un nuevo contenedor donde se puede ejecutar los archivos.
-
-
-
-
----------
-
-Para ejecutar los notebooks con soporte de aceleración por hardware (GPU), asegúrate de tener configurado tu entorno virtual:
-
-```
-# Activar el entorno virtual
-source tf-gpu/bin/activate
-source .venv/bin/activate
-```
