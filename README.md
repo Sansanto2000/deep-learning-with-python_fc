@@ -17,17 +17,22 @@ Por cuestiones de límite de tamaño de archivo en GitHub los las carpetas `data
 
 ## Configuración del Entorno
 
-Para ejecutar el codigo se usa *Docker*. 
+Para ejecutar el código se usa *Docker*. 
 
 ```
 # Levantar el contenedor
 docker compose up
+# Levantar el contenedor sin ocupar la terminal
+docker compose up -d
 
 # Comprobar ejecucion
 docker compose ps
 
-# Levantar
+# Entrar al contenedor arrancado
 docker compose exec tensorflow bash
+
+# Bajar contenedores
+docker compose down
 ```
 
 # Ejecutar `ipynb` desde VSC

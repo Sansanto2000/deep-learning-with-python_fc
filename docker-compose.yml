@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   tensorflow:
-    image: tensorflow/tensorflow:latest-gpu
+    image: tensorflow/tensorflow:2.15.0-gpu
     runtime: nvidia
     ports:
       - "8888:8888"
